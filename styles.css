@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  padding: 2px;
+}
+
+.block-1 {
+  width: 25%;
+  background: linear-gradient(#2dbeff, #203472) fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.block-2 {
+  width: 75%;
+  padding-left: 10px;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.text-section {
+  margin: 20px;
+  flex: 1;
+  font-family:'Times', ', Times New Roman', serif;
+  overflow: auto;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+
+.text-section h1 {	
+	font-size: 70px;
+	color: black;
+	margin-bottom: 0px;
+	transition: 1s;
+}
+
+.text-section h1:hover {	
+	font-size: 70px;
+	color: gray;
+	margin-bottom: 0px;
+}
+
+.text-section h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 70px;
+}
+
+.text-section h3 {
+  font-size: 40px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #37b5ff; 
+  font-style: italic;  
+}
+
+.text-section p {
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text-section ul {
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text-section a {
+  color: white;
+}
+
+.text-section a:visited {
+  color: #37b5ff;
+}
+
+.text-section a:hover {
+  color: blue;
+}
+
+#top {     
+	position: fixed;     
+	right: 10px;     
+	top: 10px;     
+	background: #37b5ff;
+	font-size: 30px;
+}
+
+.block.block-2 .subblock-1 {
+  background-color: #203472;
+  color: #37b5ff;
+  font-size: 50px;
+  padding:20px;
+  padding-left: 50px;
+}
+
+.block.block-2 .subblock-2 {
+
+}
+
+.subblock-2 ul {
+  font-size: 30px;
+}
+
+.subblock-2 li {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.subblock-2 h1 {
+  font-size: 50px;
+  margin-bottom: 2px;
+  margin-left: 50px;
+}
+
+.subblock-2 p {
+   font-size: 30px;
+   margin-top: 2px;
+   margin-left: 50px;
+}
+
+.subblock-2 h2 {
+   font-size: 40px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
